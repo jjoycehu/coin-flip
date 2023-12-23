@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="stats-container">
+        <div class="stats">
+            <p id="heads-count">Heads:0</p>
+            <p id="tails-count">Tails:0</p>
+            <p id="num-won">Won:0</p>
+            <p id="num-lost">Lost:0</p>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="guess-holder">
+            <h1> make a guess </h1>
+            <div class="guess-buttons">
+                <button id="kuma-guess">
+                    Kuma
+                </button>
+                <button id="sansan-guess">
+                    SanSan
+                </button>
+            </div>
+
+        </div>
+
+        <div class="coin">
+            <div class="sansan">
+                <img src="/images/sansan.png">
+            </div>
+
+            <div class="kuma">
+                <img src="/images/kuma.png">
+            </div>
+            
+        </div>
+
+        <div class="coin-buttons">
+            <button id="flip-button">
+                Flip Coin
+            </button>
+        </div>
+
+    </div>
+
+    <div>
+        <button id="restart-button">
+            restart
+        </button>
+    </div>
+
+    <div>
+        <button id="replay-button">
+            play again?
+        </button>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

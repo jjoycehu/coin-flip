@@ -11,7 +11,7 @@ body{
 
 .stats-container{
     background-color: #FFEEF4;
-    width: 200px;
+    width: 250px;
     padding: 30px;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -41,15 +41,15 @@ body{
     line-height: 3;
 }
 .coin{
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     position: relative;
     margin: 50px auto;
     -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
 }
 .coin img{
-    width: 150px;
+    width: 300px;
 }
 .kuma,.sansan{
     position: absolute;
@@ -66,7 +66,7 @@ body{
         transform: rotateX(0);
     }
     100%{
-        transform: rotateX(2160deg);
+        transform: rotateX(1980deg);
     }
 }
 @keyframes spin-kuma{
@@ -74,7 +74,7 @@ body{
         transform: rotateX(0);
     }
     100%{
-        transform: rotateX(19800deg);
+        transform: rotateX(2160deg);
     }
 }
 .coin-buttons{
@@ -117,7 +117,7 @@ button{
     background-color: #FFEEF4;
     color: gray;
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 65%;
     transform: translateX(-50%);
 }
